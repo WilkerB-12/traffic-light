@@ -10,3 +10,27 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#box {
+    width: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.light{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.shine{
+    box-shadow: 0 0 62px 30px #fff;
+}
